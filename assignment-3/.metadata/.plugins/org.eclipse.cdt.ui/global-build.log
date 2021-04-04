@@ -1,0 +1,8 @@
+18:31:48 **** Rebuild of configuration Debug for project c_prog_basics ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o HW1_7.o "..\\HW1_7.c" 
+..\HW1_7.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o c_prog_basics.exe HW1_7.o 
+Info: Nothing to build for c_prog_basics
