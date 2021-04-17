@@ -1,0 +1,26 @@
+17:29:05 **** Rebuild of configuration Debug for project ass-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o A4.o "..\\A4.c" 
+..\A4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\A4.c: In function 'main':
+..\A4.c:46:1: error: expected ';' before '}' token
+ }
+ ^
+17:29:15 **** Incremental Build of configuration Debug for project ass-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o A4.o "..\\A4.c" 
+..\A4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ass-5.exe A4.o 
+Info: Nothing to build for ass-5
+17:31:14 **** Incremental Build of configuration Debug for project ass-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o A4.o "..\\A4.c" 
+..\A4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ass-5.exe A4.o 
+Info: Nothing to build for ass-5
