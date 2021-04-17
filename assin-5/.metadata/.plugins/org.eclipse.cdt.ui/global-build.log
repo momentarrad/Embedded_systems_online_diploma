@@ -24,3 +24,79 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o A4.o "..\\A4.c"
       ^~~~
 gcc -o ass-5.exe A4.o 
 Info: Nothing to build for ass-5
+18:03:56 **** Incremental Build of configuration Debug for project ass-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o S3.o "..\\S3.c" 
+..\S3.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\S3.c: In function 'main':
+..\S3.c:13:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+ while(arr[i]!=0)
+          ^
+..\S3.c:22:25: warning: array subscript has type 'char' [-Wchar-subscripts]
+  arr2[string_size-i]=arr[i];
+                         ^
+..\S3.c:28:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%d",arr2[i]);
+  ^~~~~~
+..\S3.c:28:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\S3.c:28:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\S3.c:28:18: warning: array subscript has type 'char' [-Wchar-subscripts]
+  printf("%d",arr2[i]);
+                  ^
+gcc -o ass-5.exe A4.o S3.o 
+S3.o: In function `main':
+D:\mo2men\momen\KS embedded diploma\assignments\Embedded_systems_online_diploma\assin-5\ass-5\Debug/../S3.c:10: multiple definition of `main'
+A4.o:D:\mo2men\momen\KS embedded diploma\assignments\Embedded_systems_online_diploma\assin-5\ass-5\Debug/../A4.c:11: first defined here
+collect2.exe: error: ld returned 1 exit status
+18:04:36 **** Incremental Build of configuration Debug for project ass-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o A4.o "..\\A4.c" 
+gcc -o ass-5.exe A4.o S3.o 
+Info: Nothing to build for ass-5
+18:04:49 **** Incremental Build of configuration Debug for project ass-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o S3.o "..\\S3.c" 
+..\S3.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\S3.c: In function 'main':
+..\S3.c:13:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+ while(arr[i]!=0)
+          ^
+..\S3.c:22:25: warning: array subscript has type 'char' [-Wchar-subscripts]
+  arr2[string_size-i]=arr[i];
+                         ^
+..\S3.c:28:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%c",arr2[i]);
+  ^~~~~~
+..\S3.c:28:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\S3.c:28:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\S3.c:28:18: warning: array subscript has type 'char' [-Wchar-subscripts]
+  printf("%c",arr2[i]);
+                  ^
+gcc -o ass-5.exe A4.o S3.o 
+Info: Nothing to build for ass-5
+18:05:15 **** Incremental Build of configuration Debug for project ass-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o S3.o "..\\S3.c" 
+..\S3.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\S3.c: In function 'main':
+..\S3.c:13:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+ while(arr[i]!=0)
+          ^
+..\S3.c:22:25: warning: array subscript has type 'char' [-Wchar-subscripts]
+  arr2[string_size-i]=arr[i];
+                         ^
+..\S3.c:28:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%c",arr2[i]);
+  ^~~~~~
+..\S3.c:28:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\S3.c:28:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\S3.c:28:18: warning: array subscript has type 'char' [-Wchar-subscripts]
+  printf("%c",arr2[i]);
+                  ^
+gcc -o ass-5.exe A4.o S3.o 

@@ -5,6 +5,7 @@
  *      Author: Ahmed
  */
 
+/*
 #include <stdio.h>
 
 void main()
@@ -49,3 +50,5 @@ for(i=0;i<=no_of_elem;i++)
 
 
 }
+
+*/
