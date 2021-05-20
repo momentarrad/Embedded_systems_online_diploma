@@ -1,0 +1,23 @@
+/*
+ * EX3.c
+ *
+ *  Created on: May 20, 2021
+ *      Author: Ahmed
+ */
+
+
+void reverse()
+{
+	char c;
+	scanf("%d"&c);
+	if(c!=0)
+		reverse()
+}
+
+
+int main()
+{
+
+
+}
+

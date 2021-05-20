@@ -1,0 +1,319 @@
+19:00:11 **** Rebuild of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:19:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:19:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:19:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:27:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o functions.exe EX1.o 
+Info: Nothing to build for functions
+19:28:52 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:12:5: error: 'num' undeclared (first use in this function)
+  if(num)
+     ^~~
+..\EX1.c:12:5: note: each undeclared identifier is reported only once for each function it appears in
+..\EX1.c:22:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:22:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:22:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:30:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+19:29:09 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:12:5: error: 'num' undeclared (first use in this function)
+  if(num)
+     ^~~
+..\EX1.c:12:5: note: each undeclared identifier is reported only once for each function it appears in
+..\EX1.c:19:34: error: expected statement before ')' token
+    if((!(num%2 ==0))&&(num/2)>=2))
+                                  ^
+..\EX1.c:22:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:22:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:22:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:30:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+19:29:20 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:12:5: error: 'num' undeclared (first use in this function)
+  if(num)
+     ^~~
+..\EX1.c:12:5: note: each undeclared identifier is reported only once for each function it appears in
+..\EX1.c:22:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:22:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:22:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:30:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+19:30:02 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:22:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:22:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:22:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:30:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o functions.exe EX1.o 
+Info: Nothing to build for functions
+19:30:42 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:22:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:22:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:22:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:30:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o functions.exe EX1.o 
+Info: Nothing to build for functions
+20:51:07 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:33:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:33:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:33:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:39:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o functions.exe EX1.o 
+Info: Nothing to build for functions
+20:52:34 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:34:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:34:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:34:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:40:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o functions.exe EX1.o 
+Info: Nothing to build for functions
+21:04:39 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:34:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:34:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:34:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:41:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o functions.exe EX1.o 
+Info: Nothing to build for functions
+21:25:28 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:34:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:34:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:34:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:45:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o functions.exe EX1.o 
+Info: Nothing to build for functions
+21:27:17 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:34:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:34:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:34:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:45:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o functions.exe EX1.o 
+Info: Nothing to build for functions
+21:28:56 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:34:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:34:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:34:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: At top level:
+..\EX1.c:45:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o functions.exe EX1.o 
+Info: Nothing to build for functions
+22:34:37 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'find_primeNum_between_2_num':
+..\EX1.c:34:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:34:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX1.c:34:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c: In function 'find_primeNum_between_2_num_2':
+..\EX1.c:63:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("%d is a prime number \n",i);
+     ^~~~~~
+..\EX1.c:63:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\EX1.c:44:10: warning: variable 'j' set but not used [-Wunused-but-set-variable]
+      int j=2;
+          ^
+..\EX1.c: At top level:
+..\EX1.c:76:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o functions.exe EX1.o 
+Info: Nothing to build for functions
+22:41:19 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX2.o "..\\EX2.c" 
+..\EX2.c:22:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+gcc -o functions.exe EX1.o EX2.o 
+Info: Nothing to build for functions
+22:41:32 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX2.o "..\\EX2.c" 
+..\EX2.c:22:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o functions.exe EX1.o EX2.o 
+Info: Nothing to build for functions
+00:00:34 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX2.o "..\\EX2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+..\EX3.c: In function 'reverse':
+..\EX3.c:12:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d"&c);
+  ^~~~~
+..\EX3.c:12:2: warning: incompatible implicit declaration of built-in function 'scanf'
+..\EX3.c:12:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\EX3.c:12:12: error: invalid operands to binary & (have 'char *' and 'int')
+  scanf("%d"&c);
+        ~~~~^
+..\EX3.c:17:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%c",c);
+  ^~~~~~
+..\EX3.c:17:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX3.c:17:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+00:01:01 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+..\EX3.c: In function 'reverse':
+..\EX3.c:12:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d",&c);
+  ^~~~~
+..\EX3.c:12:2: warning: incompatible implicit declaration of built-in function 'scanf'
+..\EX3.c:12:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\EX3.c:12:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+  scanf("%d",&c);
+          ^
+..\EX3.c:17:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%c",c);
+  ^~~~~~
+..\EX3.c:17:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX3.c:17:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o functions.exe EX1.o EX2.o EX3.o 
+Info: Nothing to build for functions
+00:03:12 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+..\EX3.c: In function 'reverse':
+..\EX3.c:12:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d",&c);
+  ^~~~~
+..\EX3.c:12:2: warning: incompatible implicit declaration of built-in function 'scanf'
+..\EX3.c:12:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\EX3.c:12:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+  scanf("%d",&c);
+          ^
+..\EX3.c:17:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%c",c);
+  ^~~~~~
+..\EX3.c:17:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX3.c:17:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o functions.exe EX1.o EX2.o EX3.o 
+Info: Nothing to build for functions
+00:06:05 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+..\EX3.c: In function 'reverse':
+..\EX3.c:12:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%c",&c);
+  ^~~~~
+..\EX3.c:12:2: warning: incompatible implicit declaration of built-in function 'scanf'
+..\EX3.c:12:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\EX3.c:17:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%c",c);
+  ^~~~~~
+..\EX3.c:17:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\EX3.c:17:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o functions.exe EX1.o EX2.o EX3.o 
+Info: Nothing to build for functions
+Info: Nothing to build for functions
+00:22:24 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX4.o "..\\EX4.c" 
+..\EX4.c:23:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(void)
+      ^~~~
+gcc -o functions.exe EX1.o EX2.o EX3.o EX4.o 
+Info: Nothing to build for functions
+00:22:55 **** Incremental Build of configuration Debug for project functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX4.o "..\\EX4.c" 
+..\EX4.c:23:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(void)
+      ^~~~
+gcc -o functions.exe EX1.o EX2.o EX3.o EX4.o 
+Info: Nothing to build for functions

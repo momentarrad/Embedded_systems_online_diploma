@@ -1,0 +1,31 @@
+/*
+ * EX1.c
+ *
+ *  Created on: May 20, 2021
+ *      Author: Ahmed
+ */
+
+void find_primeNum_between_2_num(int num1, int num2)
+{
+	int i=num1+1;
+
+
+	while(i<num2)
+	{
+
+
+			if((i%2) && (i%3) && (i%5))
+			{
+				printf("%d is a prime number \n",i);
+
+			}
+
+		i++;
+	}
+}
+
+void main()
+{
+	find_primeNum_between_2_num(1, 10);
+
+}
