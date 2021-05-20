@@ -1,0 +1,16 @@
+/*
+ * A4.c
+ *
+ *  Created on: Apr 16, 2021
+ *      Author: Ahmed
+ */
+
+#include <stdio.h>
+
+void main()
+{
+printf("please enter the two numbers");
+fflush(stdin);
+fflush(stdout);
+scanf("%f %f",&num1,&num2);
+}
