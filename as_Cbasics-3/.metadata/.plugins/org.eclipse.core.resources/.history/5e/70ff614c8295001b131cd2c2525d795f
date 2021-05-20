@@ -1,0 +1,34 @@
+/*
+ * HW2_8.c
+ *
+ *  Created on: Apr 4, 2021
+ *      Author: Ahmed
+ */
+
+void main()
+{
+
+char operator;
+int num1,num2, result;
+
+
+    switch (operator) {
+    case '+':
+        result= num1+num2;
+        break;
+    case '-':
+         result= num1-num2;
+         break;
+    case '*':
+    	result= num1*num2;
+        break;
+    case '/':
+    	result= num1/num2;
+        break;
+        // operator doesn't match any case constant
+    default:
+        printf("Error! operator is not correct");
+    }
+
+printf(" result is %d", result );
+}
