@@ -1,0 +1,22 @@
+/*
+ * ex3.c
+ *
+ *  Created on: Jul 2, 2021
+ *      Author: Ahmed
+ */
+
+struct complex
+{
+	float real;
+	float imaginary;
+};
+
+
+struct complex add_complex(struct complex* num1,struct complex * num2)
+{
+
+}
+void main ()
+{
+
+}

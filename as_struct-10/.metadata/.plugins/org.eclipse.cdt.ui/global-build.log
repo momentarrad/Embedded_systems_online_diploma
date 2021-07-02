@@ -1,0 +1,28 @@
+15:38:47 **** Rebuild of configuration Debug for project struct_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c:23:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\ex3.c: In function 'main':
+..\ex3.c:31:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%f + %f", res.real , res.imaginary);
+  ^~~~~~
+..\ex3.c:31:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\ex3.c:31:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o struct_Assignment.exe ex3.o 
+Info: Nothing to build for struct_Assignment
+15:39:37 **** Incremental Build of configuration Debug for project struct_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c:23:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\ex3.c: In function 'main':
+..\ex3.c:31:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%f + %f i", res.real , res.imaginary);
+  ^~~~~~
+..\ex3.c:31:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\ex3.c:31:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o struct_Assignment.exe ex3.o 
+Info: Nothing to build for struct_Assignment
