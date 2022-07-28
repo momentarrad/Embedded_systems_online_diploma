@@ -1,0 +1,16 @@
+0000000c T _reset
+00000000 W bus_fault_handler
+00000000 T default_handler
+         U EBSS
+         U EDATA
+         U ETEXT
+0000001c D g_vector_table
+00000000 W H_fault_handler
+         U main
+00000000 W MM_fault_handler
+00000000 W NMI_handler
+         U SBSS
+         U SDATA
+         U SP_Top
+00000000 W usage_fault_handler
+00000000 D vector_table
